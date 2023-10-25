@@ -1,4 +1,5 @@
 import type { GatsbyConfig } from "gatsby";
+require("dotenv").config();
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -28,6 +29,18 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: "gatsby-source-microcms",
+      options: {
+        apiKey: process.env.MICROCMS_API_KEY,
+        serviceId: process.env.MICROCMS_SERVICE_ID,
+        apis: [
+          {
+            endpoint: process.env.MICROCMS_ENDPOINT,
+            format: "list",
+          },
+        ],
+      },
   }]
 };
 
