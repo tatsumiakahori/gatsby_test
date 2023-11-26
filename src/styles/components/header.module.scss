@@ -1,0 +1,11 @@
+.header {
+    padding: 0 32px;
+    @apply flex justify-between;
+    
+    .title {
+        font-style: italic;
+        font-weight: bold;
+        color: orangered;
+        letter-spacing: 0.7em;
+    }
+}
