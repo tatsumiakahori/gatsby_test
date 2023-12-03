@@ -21,7 +21,7 @@ const Contact = () => {
           <h2>お問い合わせ</h2>
           <ul>
             <li>
-              <label>氏名</label>
+              <label htmlFor="name">氏名</label>
               <input
                 type="text"
                 name="name"
@@ -31,7 +31,7 @@ const Contact = () => {
               />
             </li>
             <li>
-              <label>内容</label>
+              <label htmlFor="content">内容</label>
               <input
                 type="textarea"
                 name="content"
