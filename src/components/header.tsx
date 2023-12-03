@@ -17,7 +17,7 @@ const Header: React.FC<PageProps> = () => {
           <Link to="/blog">ブログ</Link>
         </li>
         <li style={{margin: 10}}>
-          <Link to="/company">会社情報</Link>
+          <Link to="/contact">お問い合わせ</Link>
         </li>
       </ul>
     </header>
