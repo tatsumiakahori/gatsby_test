@@ -11,6 +11,7 @@ const Contact = () => {
       <section className="section-layout">
         <form
           method="post"
+          action="/success"
           netlify-honeypot="bot-field"
           data-netlify="true"
           name="contact"
