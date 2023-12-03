@@ -9,8 +9,15 @@ const Contact = () => {
   return (
     <Layout>
       <section className="section-layout">
-        <form method="post" action="https://hyperform.jp/api/Ge7hEEaG">
-            <h2>お問い合わせ</h2>
+        <form
+          method="post"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+          name="contact"
+        >
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
+          <h2>お問い合わせ</h2>
           <ul>
             <li>
               <label>氏名</label>
@@ -33,8 +40,7 @@ const Contact = () => {
               />
             </li>
           </ul>
-          <button
-          type="submit">送信</button>
+          <button type="submit">送信</button>
         </form>
       </section>
     </Layout>
