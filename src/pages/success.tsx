@@ -9,3 +9,5 @@ const Success = () => {
     </Layout>
   )
 }
+
+export default Success;
