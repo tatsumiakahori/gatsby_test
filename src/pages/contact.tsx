@@ -11,13 +11,11 @@ const Contact = () => {
       <section className="section-layout">
         <form
           method="post"
-          action="/success"
+          action="https://gatsby-test.form.newt.so/v1/qCi3DtWHY"
           netlify-honeypot="bot-field"
           data-netlify="true"
           name="contact"
         >
-          <input type="hidden" name="bot-field" />
-          <input type="hidden" name="form-name" value="contact" />
           <h2>お問い合わせ</h2>
           <ul>
             <li>

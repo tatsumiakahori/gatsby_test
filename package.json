@@ -32,6 +32,7 @@
     "gatsby-plugin-sitemap": "^6.12.1",
     "gatsby-source-filesystem": "^5.12.0",
     "gatsby-source-microcms": "^3.0.0",
+    "gatsby-source-newt": "^2.0.14",
     "gatsby-transformer-sharp": "^5.12.1",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
