@@ -5,19 +5,19 @@ import * as styles from '../styles/components/header.module.scss';
 
 const Header: React.FC<PageProps> = () => {
   return (
-    <header className={`${styles.header} flex justify-between`}>
-      <h1 className={`${styles.title} flex items-center`}>
-        <Link to="/">test工務店</Link>
+    <header className="flex justify-between px-4">
+      <h1 className="flex items-center italic font-extrabold text-orange-600">
+        <Link to="/" className="text-xl">TEST SITE</Link>
       </h1>
       <ul style={{display: "flex", justifyContent: 'space-between'}}>
         <li style={{margin: 10}}>
-          <Link to="/">ホーム</Link>
+          <Link to="/">home</Link>
         </li>
         <li style={{margin: 10}}>
-          <Link to="/blog/allBlog">ブログ</Link>
+          <Link to="/blog/allBlog">blog</Link>
         </li>
         <li style={{margin: 10}}>
-          <Link to="/contact">お問い合わせ</Link>
+          <Link to="/contact">contact</Link>
         </li>
       </ul>
     </header>
